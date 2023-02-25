@@ -1,5 +1,6 @@
 import React from "react";
 import "./WeatherApp.css";
+import axios from "axios";
 // import Search from "./Search";
 // import Time from "./Time";
 
@@ -73,7 +74,13 @@ export default function WeatherApp(props) {
         </div>
         <p className="owner">
           This website was coded by Olha Ovsii, and is{" "}
-          <a href="https://github.com/Helga-ov/WeatherApp" class="link">
+          <a
+            href="https://github.com/Helga-ov/WeatherApp"
+            class="link"
+            npm
+            install
+            axios
+          >
             open-sourced
           </a>
         </p>
