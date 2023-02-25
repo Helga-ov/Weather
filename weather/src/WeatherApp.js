@@ -1,9 +1,7 @@
 import React from "react";
 import "./WeatherApp.css";
-import axios from "axios";
+// import axios from "axios";
 // import Search from "./Search";
-
-// import Time from "./Time";
 
 export default function WeatherApp(props) {
   return (
