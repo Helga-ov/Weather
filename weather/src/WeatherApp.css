@@ -1,0 +1,154 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(43, 199, 188) 0%,
+    rgb(219, 249, 203) 72.9%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+.WeatherApp .fild {
+  background: rgba(249, 246, 246, 0.6);
+  border: 2px solid rgb(6, 153, 109);
+  max-width: 750px;
+  margin: 20px auto;
+}
+.WeatherApp .WeatherFild {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.WeatherApp form {
+  line-height: 35px;
+  width: 100%;
+}
+
+.WeatherApp input {
+  border: 2px solid rgb(6, 153, 109);
+  font-size: 16px;
+  width: 70%;
+}
+.WeatherApp .search {
+  border: 2px solid rgb(6, 153, 109);
+  background: rgb(6, 153, 109);
+  color: #fff;
+  font-size: 16px;
+  transition: all 200ms ease;
+  width: 30%;
+}
+.WeatherApp .search:hover {
+  color: #fff;
+  background: rgb(5, 92, 66);
+}
+.WeatherApp .current {
+  border: 2px solid rgb(6, 153, 109);
+  background: rgb(6, 153, 109);
+  color: #fff;
+  font-size: 16px;
+  transition: all 200ms ease;
+  width: 60%;
+  line-height: 35px;
+}
+.WeatherApp .current:hover {
+  color: #fff;
+  background: rgb(5, 92, 66);
+}
+.WeatherApp .temperature {
+  font-size: 70px;
+  font-weight: bold;
+  display: block;
+  float: left;
+}
+.WeatherApp .celsium {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.WeatherApp .icon {
+  width: 90px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.WeatherApp .description {
+  text-align: center;
+  line-height: 35px;
+  border-radius: 0;
+  border: 2px solid rgb(6, 153, 109);
+  background: rgb(6, 153, 109);
+  color: #fff;
+  font-size: 16px;
+  width: 200px;
+  line-height: 35px;
+}
+
+.WeatherApp .lc,
+.currentTime {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+}
+.WeatherApp .lc {
+  font-size: 50px;
+  width: 100%;
+  line-height: 1;
+  padding-top: 10px;
+}
+.WeatherApp .ffh {
+  color: black;
+  font-size: 20px;
+  width: 260px;
+  line-height: 35px;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (min-width: 320px) {
+  .WeatherApp .temperature {
+    font-size: calc(2.8125rem + ((1vw - 3.2px) * 2.6455));
+    min-height: 0vw;
+  }
+  .WeatherApp .celsium {
+    font-size: calc(1.4375rem + ((1vw - 3.2px) * 1.7989));
+  }
+  .WeatherApp .icon {
+    width: calc(3.75rem + ((1vw - 3.2px) * 3.1746));
+  }
+  .WeatherApp .lc {
+    font-size: calc(2.1875rem + ((1vw - 3.2px) * 1.5873));
+  }
+  .WeatherApp .currentTime {
+    font-size: calc(1.375rem + ((1vw - 3.2px) * 1.3757));
+  }
+  .WeatherApp .ffh {
+    font-size: calc(1rem + ((1vw - 3.2px) * 0.4233));
+  }
+}
+@media (min-width: 1265px) {
+  .WeatherApp .temperature {
+    font-size: 70px;
+  }
+  .WeatherApp .celsium {
+    font-size: 40px;
+  }
+  .WeatherApp .icon {
+    width: 90px;
+  }
+  .WeatherApp .lc {
+    font-size: 50px;
+  }
+  .WeatherApp .currentTime {
+    font-size: 35px;
+  }
+  .WeatherApp .ffh {
+    font-size: 20px;
+  }
+}
+.WeatherApp .owner {
+  text-align: center;
+  font-size: 20px;
+}
